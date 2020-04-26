@@ -5,3 +5,8 @@ export const getLogin = (req: Request, res: Response) => {
     title: 'login',
   });
 };
+
+
+export const postLogin = (req: Request, res: Response) => {
+  console.log('req.body :>> ', req.body);
+}

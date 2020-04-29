@@ -7,5 +7,6 @@ export const getLogin = (req: Request, res: Response) => {
 };
 
 export const postLogin = (req: Request, res: Response) => {
-  console.log('req.body :>> ', req.body);
+  const {email, password} = req.body
+
 };
